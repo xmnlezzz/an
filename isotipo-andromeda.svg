@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Isotipo Andrómeda 4</title>
+  <desc id="desc">Cohete blanco que atraviesa una galaxia violeta con estela cian, rodeado de estrellas sobre fondo azul oscuro.</desc>
+  <defs>
+    <linearGradient id="bg" x1="74" y1="44" x2="438" y2="484" gradientUnits="userSpaceOnUse"><stop stop-color="#111D43"/><stop offset="1" stop-color="#050A1D"/></linearGradient>
+    <linearGradient id="galaxy" x1="95" y1="292" x2="406" y2="173" gradientUnits="userSpaceOnUse"><stop stop-color="#5420C9"/><stop offset=".55" stop-color="#A747FF"/><stop offset="1" stop-color="#6B42FF"/></linearGradient>
+    <linearGradient id="trail" x1="137" y1="398" x2="310" y2="288" gradientUnits="userSpaceOnUse"><stop stop-color="#00E7E7" stop-opacity=".08"/><stop offset=".48" stop-color="#00E7E7"/><stop offset="1" stop-color="#B4FFFF"/></linearGradient>
+    <linearGradient id="flame" x1="270" y1="342" x2="249" y2="441" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF7B0"/><stop offset=".45" stop-color="#FFD86B"/><stop offset="1" stop-color="#8735F5" stop-opacity="0"/></linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="disc"><circle cx="256" cy="256" r="222"/></clipPath>
+  </defs>
+  <circle cx="256" cy="256" r="246" fill="#020615"/>
+  <circle cx="256" cy="256" r="237" fill="url(#bg)" stroke="#F4F7FF" stroke-width="8"/>
+  <circle cx="256" cy="256" r="224" stroke="#00E7E7" stroke-opacity=".9" stroke-width="2"/>
+  <g clip-path="url(#disc)">
+    <circle cx="256" cy="256" r="222" fill="url(#bg)"/>
+    <circle cx="125" cy="139" r="2.5" fill="white"/><circle cx="390" cy="122" r="2" fill="#A9FFFF"/><circle cx="407" cy="285" r="2.4" fill="white"/>
+    <circle cx="119" cy="321" r="2" fill="#A9FFFF"/><circle cx="357" cy="395" r="2.3" fill="white"/><circle cx="181" cy="100" r="1.8" fill="white"/>
+    <path d="M80 278c46-91 164-146 272-112 63 20 95 66 85 105-9 38-57 60-111 53-71-10-102-55-166-48-34 4-67 25-92 48 13-27 34-51 65-68 55-31 119-25 165-2 41 20 78 20 96 1 18-19 9-48-22-65-67-36-184-4-249 54-22 20-39 43-51 68 1-12 4-23 8-34Z" fill="url(#galaxy)" opacity=".94"/>
+    <path d="M96 302c59-70 147-95 227-71 39 12 64 35 72 58-31-18-63-26-96-24-54 3-95 34-144 47-24 6-45 4-59-10Z" fill="#7E39F4" opacity=".72"/>
+    <path d="M91 347c52 5 86-20 122-39 32-17 66-30 101-30-25 12-45 34-69 53-47 36-102 47-154 16Z" fill="url(#trail)" filter="url(#glow)"/>
+    <path d="M166 375c49-1 83-28 112-53 25-22 49-38 78-44-19 15-34 36-51 56-43 49-91 65-139 41Z" fill="#00E7E7" opacity=".55"/>
+    <path d="m148 197 10-19 10 19 19 10-19 10-10 19-10-19-19-10 19-10Z" fill="#F8FBFF"/>
+    <path d="m365 330 7-13 7 13 13 7-13 7-7 13-7-13-13-7 13-7Z" fill="#F8FBFF"/>
+    <path d="m349 154 5-10 5 10 10 5-10 5-5 10-5-10-10-5 10-5Z" fill="#00E7E7"/>
+    <g transform="rotate(38 260 259)" filter="url(#glow)">
+      <path d="M260 108c-35 39-48 91-48 154v45l48 38 48-38v-45c0-63-13-115-48-154Z" fill="#F9FAFF" stroke="#00E7E7" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M216 270 179 313l33 1 28-24M304 270l37 43-33 1-28-24" fill="#8735F5" stroke="#D8C2FF" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M260 135c-14 24-20 53-20 83h40c0-30-6-59-20-83Z" fill="#101830"/>
+      <circle cx="260" cy="218" r="17" fill="#101830" stroke="#8735F5" stroke-width="7"/>
+      <path d="M236 329 260 418l24-89-24 17-24-17Z" fill="url(#flame)"/>
+      <path d="M252 337 260 394l8-57-8 10-8-10Z" fill="#FFF5A4"/>
+      <path d="M248 139c-23 41-30 85-30 127" stroke="white" stroke-opacity=".72" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  </g>
+  <circle cx="256" cy="256" r="237" stroke="#00E7E7" stroke-width="2" stroke-opacity=".85"/>
+</svg>
